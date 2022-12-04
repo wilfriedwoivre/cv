@@ -1,0 +1,469 @@
+@import url('../soat/style.css');
+
+@font-face {
+    font-family: Segoe UI,caviar-dreams-bold;
+    src: url('../fonts/Caviar_Dreams_Bold.ttf');
+}
+
+@font-face {
+    font-family: Segoe UI,caviar-dreams;
+    src: url('../fonts/CaviarDreams.ttf');
+}
+
+@font-face {
+    font-family: Segoe UI,open-sans;
+    src: url('../fonts/OpenSans-Regular.ttf');
+}
+
+@font-face {
+    font-family: Segoe UI,open-sans-semi-bold;
+    src: url('../fonts/OpenSans-Semibold.ttf');
+}
+
+@font-face {
+    font-family: Segoe UI,open-sans-bold;
+    src: url('../fonts/OpenSans-Bold.ttf');
+}
+
+@font-face {
+    font-family: Segoe UI,open-sans-light;
+    src: url('../fonts/OpenSans-Light.ttf');
+}
+
+body{
+  background-color: #C5C5C5;
+  font-size: 0.8em;
+  font-family: Segoe UI,open-sans;
+  margin:0;
+  color: #303030;
+}
+
+@media print {
+  body{
+    -webkit-print-color-adjust: exact; 
+  }
+}
+
+h1, h2, h3{
+  -webkit-margin-after: 0.2em;
+}
+
+h1, h2, h3{
+  -webkit-margin-before: 0;
+}
+
+h1{
+  font-size: 1.8em;
+}
+
+h2{
+  font-size: 1.6em;
+}
+
+h3{
+  font-size: 1.1em;
+}
+
+.bold, b{
+  font-family: Segoe UI,open-sans-bold;
+}
+
+.caviar, #auteur span{
+  font-family: Segoe UI,caviar-dreams;
+}
+
+.caviar-bold, b.caviar, h1, h2, h3{
+  font-family: Segoe UI,caviar-dreams-bold;
+}
+
+.italique, i, #vision p{
+  font-style: italic;
+}
+
+a{  
+  color: #00AEC7;
+  text-decoration: none;
+}
+
+ul{
+  -webkit-padding-start: 0px;
+  overflow: visible;
+}
+
+li{
+  list-style: none;
+}
+
+li:before{
+  font-family: soat;
+}
+
+li > a, #social a{
+  display: block;
+  width: 95%;
+  margin-top: 1mm;
+}
+
+.bloc, .bloc-gauche, .bloc-droit, .logo, .description{
+  padding: 5mm;
+  line-height: 1em;
+  float: left;
+  background-color: white;
+  margin-top: 1mm;
+  overflow: hidden;
+}
+
+.in-bloc{
+  background-color: white;
+  width: 125mm;
+  margin-top: 1mm;
+  overflow: hidden;
+}
+
+.vert{
+  color: #ADC90A;
+}
+
+.fond-vert{
+  background-color: #ADC90A;
+}
+.gris{
+  color: #C5C5C5;
+}
+
+.fond-gris{
+  background-color: #C5C5C5;
+}
+.gris-clair{
+  color: #E5E5E5;
+}
+
+.fond-gris-clair{
+  background-color: #E5E5E5;
+}
+
+.gris-fonce{
+  color: #4C4C4C;
+}
+
+.fond-gris-fonce{
+  background-color: #4C4C4C;
+}
+
+.bleu{
+  color: #00AEC7;
+}
+
+.fond-bleu{
+  background-color: #00AEC7;
+}
+
+.orange{
+  color: #FF8800;
+}
+
+.fond-orange{
+  background-color: #FF8800;
+}
+
+.rouge{
+  color: #F90707;
+}
+
+.fond-rouge{
+  background-color: #F90707;
+}
+
+.violet, h1, h2, h3, #vision p{
+  color: #793C5B;
+}
+
+.fond-violet{
+  background-color: #793C5B;
+}
+
+.fond-violet, .fond-gris, .fond-gris-fonce, .fond-gris-clair,
+.fond-vert, .fond-bleu, .fond-orange, .fond-rouge,
+.fond-violet *, .fond-gris *, .fond-gris-fonce *, .fond-gris-clair *,
+.fond-vert *, .fond-bleu *, .fond-orange *, .fond-rouge *
+{
+  color: white;
+}
+
+#conteneur{
+  width: 21cm;
+  height: 296.8mm;
+  border: 1mm solid #C5C5C5;
+  overflow: hidden;
+  margin : 0 auto;
+}
+
+#conteneur, .conteneur{
+  background-color: #C5C5C5;
+}
+
+.conteneur{
+  margin-top: 0;
+  padding: 0;
+}
+
+
+.bloc-droit{
+  width: 63mm;
+  margin-left: 1mm;
+}
+
+.bloc-gauche{
+  width: 126mm;
+}
+
+#conteneur-gauche{
+  width: 136mm;
+}
+
+#conteneur-droit{
+  width: 73mm;
+}
+
+.conteneur .in-bloc{
+  width: auto;
+}
+
+#auteur, #vision, #logo{
+  height: 21mm;
+}
+
+#auteur, #logo{
+  margin-top: 0;
+}
+
+#roles, #formations, #publications, #social{
+  padding: 5mm;
+}
+
+#roles{
+  height: 88mm;
+  padding-top: 1mm;
+}
+
+#roles ul{
+  margin-top: 6mm;
+}
+
+#roles li{
+  margin-top: 1.5em;
+}
+
+#roles p{
+  margin-top: 0.4em;
+}
+
+#logo{
+  background-image: url('../images/Wilfried_woivre.jpg');
+  background-size: auto 100%;
+  background-repeat: no-repeat;
+  background-position: center;
+}
+
+#certification{
+  text-align: center;
+  padding: 0;
+  height: 31mm;
+  width: 73mm;
+}
+
+#certification img{
+  width: auto;
+  height: 100%;
+}
+
+#formations li:before, #publications li:before{
+  float:left;
+  content:'■';
+  color: #793C5B;
+  padding-right: 1em;
+}
+
+#formations li{
+  line-height: 1.8em;
+}
+
+#publications a{
+  margin-left: 7mm;
+}
+
+#publications p{
+  line-height: 1.3em;
+}
+
+#social{
+  height: 120mm;
+  padding: 5mm;
+  padding-top: 8mm;
+}
+
+#social li{
+  width: 100%;
+  height: 9mm;
+  margin-top: 9mm;
+  font-family: Segoe UI,open-sans-bold;
+  font-size: 0.9em;
+}
+
+#social .centre{
+  margin-top: 3mm;
+}
+
+#social li:before{
+  float: left;
+  font-size: 8mm;
+  margin-right: 2mm;
+  margin-top: -3mm;
+}
+
+#social li div{
+  margin-top: -3mm;
+  float: left;
+  width: 52mm;
+  height: 100%;
+  vertical-align: middle;
+}
+
+#social a{
+  word-wrap: break-word;
+  font-family: Segoe UI,open-sans-light;
+  line-height: 0.9em;
+}
+
+#formations{
+  height: 16mm;
+}
+
+#publications{
+   height: 87mm;
+}
+
+#publications li{
+  margin-top: 5mm;
+  line-height: 1.1em;
+}
+
+#mots-cles{
+  font-family: Segoe UI,caviar-dreams-bold;
+  color: #C5C5C5;
+  height: 75mm;
+  padding: 5mm 10mm 5mm 10mm;
+}
+
+#mots-cles li{
+  display: inline-block;
+  margin: 3mm;
+}
+
+.large{
+  font-size: 2em;
+  line-height: 1em;
+}
+
+.extra-large{
+  font-size: 2.8em;
+}
+
+.petit{
+  font-size: 1em;
+}
+
+#contact{
+  width: 200mm;
+  height: 9mm;
+  padding-top: 0;
+  margin-right: 0;
+  text-align: center;
+  line-height: 3.5em;
+}
+
+/******** Missions ********/
+#titre{
+  width: 206mm;
+  border-bottom: 1.5mm solid #C5C5C5;
+  border-left: 1mm solid #C5C5C5;
+  border-right: 1mm solid #C5C5C5;
+  border-top: 1.5mm solid #C5C5C5;
+  margin-top: 0;
+  margin-left:0;
+  padding: 2mm;
+  text-align: center;
+}
+
+#missions{
+  font-family: Segoe UI,open-sans-semi-bold;
+  background-color: white;
+  font-size: 1.1em;
+  display: table;
+  border: 0;
+  width: 21cm;
+  height: 297mm;
+  margin : 0 auto;
+}
+
+.description h2{
+  margin-bottom: 5mm;
+}
+
+.mission{
+  float: left;
+  border-top: 0.6mm solid #C5C5C5;
+  /*border-bottom: 0.6mm solid #C5C5C5;*/
+  min-height: 25mm;
+  width: 100%;
+  line-height: 18mm;
+  display: table-row;
+}
+
+#conteneur>.mission:last-child {
+  border-bottom: 3.5mm solid #C5C5C5;
+}
+
+.logo, .description{
+  float: none;
+  display: table-cell;
+}
+
+#missions .bloc, .logo, .description{
+  margin: 0;
+  padding: 0;
+}
+
+.logo{
+  width: 51mm;
+  line-height: 20mm;
+  border-left: 1mm solid #C5C5C5;
+  border-right: 0.6mm solid #C5C5C5;
+  text-align: center;
+  vertical-align: middle;
+  max-height:48mm;
+}
+
+.logo div {
+  height: 100%;
+  line-height: 100%;
+}
+
+.logo img{
+  display: inline;
+  max-width: 70%;
+  max-height: 70%;
+  vertical-align: middle;
+}
+
+.description{
+  width: 143mm;
+  min-height: 20mm;
+  padding: 8mm;
+  padding-top: 4mm;
+  padding-bottom: 3mm;
+  border-left: 0.6mm solid #C5C5C5;
+  border-right: 1mm solid #C5C5C5;
+  font-size:12.4px;
+  line-height:1.2em;
+}

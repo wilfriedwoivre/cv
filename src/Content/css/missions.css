@@ -1,0 +1,92 @@
+#titre{
+  width: 206mm;
+  border-bottom: 1.5mm solid #C5C5C5;
+  border-left: 1.5mm solid #C5C5C5;
+  border-right: 1.5mm solid #C5C5C5;
+  margin-top: 0;
+  margin-left:0;
+  padding: 2mm;
+  text-align: center;
+}
+
+body{
+  font-family: open-sans-semi-bold;
+}
+/*
+@page{
+  margin: 0;
+}
+*/
+p {
+  -webkit-margin-before: 0;
+  -webkit-margin-after: 0;
+}
+
+#conteneur{
+  background-color: white;
+  font-size: 1.1em;
+  display: table;
+  border: 0;
+  border-top: 1.5mm solid #C5C5C5;
+}
+
+.mission{
+  float: left;
+  border-top: 0.6mm solid #C5C5C5;
+  border-bottom: 0.6mm solid #C5C5C5;
+  min-height: 36mm;
+  width: 100%;
+  line-height: 30mm;
+  display: table-row;
+}
+
+#conteneur>.mission:last-child {
+  border-bottom: 1.5mm solid #C5C5C5;
+}
+
+.logo, .description{
+  float: none;
+  display: table-cell;
+}
+
+.bloc, .logo, .description{
+  margin: 0;
+  padding: 0;
+}
+
+.description ul{
+  margin-top: 2em;
+}
+
+.description li{
+  margin-top: 0.8em;
+}
+
+.logo{
+  width: 51mm;
+  line-height: 36mm;
+  border-left: 1.5mm solid #C5C5C5;
+  border-right: 0.6mm solid #C5C5C5;
+  text-align: center;
+  vertical-align: middle;
+}
+
+.logo div {
+  height: 100%;
+  line-height: 100%;
+}
+
+.logo img{
+  display: inline;
+  max-width: 70%;
+  max-height: 70%;
+  vertical-align: middle;
+}
+
+.description{
+  width: 143mm;
+  min-height: 20mm;
+  padding: 8mm;
+  border-left: 0.6mm solid #C5C5C5;
+  border-right: 1.5mm solid #C5C5C5;
+}
