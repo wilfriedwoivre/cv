@@ -83,7 +83,6 @@
 a {
   color: inherit;
   text-decoration: none;
-  pointer-events: none;
 }
 
 .left-column ul {
