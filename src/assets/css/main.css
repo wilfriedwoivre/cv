@@ -103,3 +103,9 @@ a {
 .experience-list {
   list-style-type: circle;
 }
+
+.xp {
+  font-size: 12px;
+  padding-top: 3px;
+  padding-bottom: 3px;
+}
