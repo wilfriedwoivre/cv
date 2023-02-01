@@ -40,6 +40,10 @@
   justify-content: center;
 }
 
+.infos {
+  list-style-type: none;
+}
+
 .content {
   grid-area: content;
   padding: 20px 50px 20px 50px;
