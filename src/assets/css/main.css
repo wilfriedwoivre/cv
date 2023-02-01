@@ -42,6 +42,7 @@
 
 .infos {
   list-style-type: none;
+  padding-inline-start: 10px;
 }
 
 .content {
