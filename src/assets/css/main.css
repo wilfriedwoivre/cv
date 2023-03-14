@@ -115,6 +115,10 @@ a {
   padding-bottom: 3px;
 }
 
+.right-column .section {
+  padding-bottom: 0px;
+}
+
 .old-xp {
   list-style: none;
   padding: 0px;
