@@ -114,3 +114,9 @@ a {
   padding-top: 3px;
   padding-bottom: 3px;
 }
+
+.old-xp {
+  list-style: none;
+  padding: 0px;
+  margin: 0px;
+}
