@@ -47,7 +47,7 @@
 
 .content {
   grid-area: content;
-  padding: 20px 50px 20px 50px;
+  padding: 15px 50px 15px 50px;
 }
 
 .text-blue {
@@ -116,6 +116,7 @@ a {
 }
 
 .right-column .section {
+  padding-top: 0px;
   padding-bottom: 0px;
 }
 
